@@ -1,0 +1,53 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "Believe in the importance of art"
+    },
+    {
+      "id": 2,
+      "text": "Have a vivid imagination"
+    },
+    {
+      "id": 3,
+      "text": "Am not interested in abstract ideas"
+    },
+    {
+      "id": 4,
+      "text": "Avoid philosophical discussions"
+    },
+    {
+      "id": 5,
+      "text": "Dislike myself"
+    },
+    {
+      "id": 6,
+      "text": "Have frequent mood swings"
+    },
+    {
+      "id": 7,
+      "text": "Rarely get irritated"
+    },
+    {
+      "id": 8,
+      "text": "Feel comfortable with myself"
+    },
+    {
+      "id": 9,
+      "text": "Make friends easily"
+    },
+    {
+      "id": 10,
+      "text": "Am skilled in handling social situations"
+    },
+    {
+      "id": 11,
+      "text": "Am out for my own personal gain"
+    },
+    {
+      "id": 12,
+      "text": "Make demands on others"
+    }
+  ],
+  "results": []
+}

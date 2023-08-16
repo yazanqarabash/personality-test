@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Krub&display=swap");
+
+/* buttons style override  */
+
+.MuiButtonGroup-root .MuiButtonGroup-grouped:not(:last-of-type) {
+  margin-right: 8px;
+}
+
+.MuiButtonGroup-root .MuiButtonGroup-grouped.Mui-disabled {
+  border: none !important;
+}
+
+.MuiButtonGroup-root .MuiButtonGroup-grouped {
+  border-radius: 4px !important;
+  border: none !important;
+}
+
+/* progress bar style override  */
+
+.MuiLinearProgress-root {
+  height: 1.5rem !important;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.26) !important;
+}
