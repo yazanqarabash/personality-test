@@ -8,6 +8,7 @@ function RadioIcon({ isChecked, isHovered }) {
       }`}
     >
       <ellipse
+        data-testid="radio-svg"
         cx="250"
         cy="250"
         fill="#fff"
