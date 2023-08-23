@@ -40,17 +40,17 @@ function Results() {
       {results.map((result) => (
         <div
           key={result.id}
-          className="h-full flex justify-center items-center flex-col bg-gradient-to-r from-white to-pink-300 p-16 md:p-20 lg:p-40 rounded-e-3xl"
+          className="h-full flex justify-center items-center flex-col bg-gradient-to-r from-white to-pink-300 p-16 md:p-20 text-center"
         >
-          <h1 className="text-pink-500 tracking-wide pb-1 mix-blend-color-burn text-4xl md:text-6xl">
+          <h1 className="text-pink-500 tracking-wide pb-1 mix-blend-color-burn text-3xl md:text-6xl">
             {result.domain}
           </h1>
           <div className="flex">
-            <span className="text-gray-600 antialiased text-base md:text-lg pl-1">
+            <span className="text-gray-600 text-base md:text-lg font-bold antialiased tracking-tight [word-spacing:4px]">
               score: {result.score} - {calculateScoreLevel(result.score)}
             </span>
           </div>
-          <div className="pt-4 pl-1">
+          <div className="pt-2 md:pt-4">
             <Button
               disableElevation
               variant="contained"
