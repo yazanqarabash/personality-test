@@ -36,11 +36,11 @@ function Results() {
   }
 
   return (
-    <div className="h-full flex justify-center items-center">
+    <>
       {results.map((result) => (
         <div
           key={result.id}
-          className="bg-gradient-to-r from-white to-pink-300 p-16 md:p-20 lg:p-40 rounded-e-3xl"
+          className="h-full flex justify-center items-center flex-col bg-gradient-to-r from-white to-pink-300 p-16 md:p-20 lg:p-40 rounded-e-3xl"
         >
           <h1 className="text-pink-500 tracking-wide pb-1 mix-blend-color-burn text-4xl md:text-6xl">
             {result.domain}
@@ -54,15 +54,15 @@ function Results() {
             <Button
               disableElevation
               variant="contained"
-              sx={{ padding: { xs: "2px 15px", sm: "4px 22px" } }}
+              sx={{ padding: { xs: "6px 16px", sm: "8px 22px" } }}
               onClick={handleResetTest}
             >
-              Reset
+              Redo Test
             </Button>
           </div>
         </div>
       ))}
-    </div>
+    </>
   );
 }
 

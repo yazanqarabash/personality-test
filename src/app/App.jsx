@@ -3,6 +3,7 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Test from "../components/Test";
 import Results from "../components/Results";
 import { TestContext } from "../contexts/TestContext";
+import LandingPage from "../components/LandingPage";
 
 // theme config for MUI
 const theme = createTheme({
@@ -19,7 +20,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <main className="h-screen font-krub">
-        {testDone ? <Results /> : <Test />}
+        {testDone ? <Results /> : <LandingPage />}
       </main>
     </ThemeProvider>
   );
