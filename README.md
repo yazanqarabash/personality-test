@@ -10,6 +10,18 @@ Simple personality test project that displays questions from API. User can answe
 
 * Run `npm start` runs the application in development mode and starts the API
 
+## Screenshots
+
+Here is a taste of how the web application looks like:
+– photos taken with GoFullPage
+
+<div style="display: flex; flex-direction: row; gap: 10px;">
+  <div style="display: flex; flex-direction: column; gap: 25px;">
+    <img src="https://github.com/user-attachments/assets/a6a62804-d9f0-4e89-8738-7c1bbc1cb32c" alt="Chocolates Page" width="400" height="250"/>
+    <img src="https://github.com/user-attachments/assets/09bc5c05-4c83-4227-ab31-55795f7d9856" alt="Details Page" width="400" height="250"/>
+  </div>
+</div>
+
 ## Available Scripts
 
 In the project directory, you can run:
